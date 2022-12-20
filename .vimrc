@@ -15,9 +15,6 @@ set tabstop=4								"設定tab鍵四個寬度
 
 let mapleader = ","
 
-execute "set <M-k>=\ek"
-execute "set <M-j>=\ej"
-
 inoremap jk <Esc>
 imap <Esc> <Nop>
 nmap S :w<CR>
@@ -31,8 +28,8 @@ nmap <C-k> <C-w>k
 nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
-nmap <M-k> kzz
-nmap <M-j> jzz
+nmap <C-p> kzz
+nmap <C-n> jzz
 nmap <Leader>hw :new<CR>
 nmap <Leader>vw :vnew<CR>
 nmap <F2> :NERDTreeToggle<CR>
